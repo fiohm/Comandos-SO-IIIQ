@@ -1,18 +1,18 @@
 # Comandos-SO-IIIQ
 
-ip addr (sacar IP)
-sudo (convertir comando a admin)
-sudo apt install -name of the app- (instalar app)
-sudo apt install openssh (conectar virtual)
-whoami (saber user)
-root (conectarse para ser admin)
-cleaar (borra todo)
+ip addr #sacar IP
+sudo #convertir comando a admin
+sudo apt install -name of the app- #instalar app
+sudo apt install openssh #conectar virtual
+whoami #saber user
+root #conectarse para ser admin
+cleaar #borra todo
 user add / sudo user add -name- -m
-neofetch > para ver carac de la virtual
-comando pwd > me dice en que ruta estoy en la terminal
-comando cd > devuelve a home en la terminal
-sudo apt update >va a todos los paquetes del repusitorio a actualizar
-sudo apt upgrade >para instalarlos
+neofetch #para ver carac de la virtual
+comando pwd #me dice en que ruta estoy en la terminal
+comando cd #devuelve a home en la terminal
+sudo apt update #va a todos los paquetes del repusitorio a actualizar
+sudo apt upgrade #para instalarlos
 cat /etc/passwd #archivo para ver users del SO
 /etc/shadown #ver contra encriptada
 nmap IPADDRESS #puertos abiertos
@@ -53,5 +53,14 @@ systemctl isolate graphical.target #cambia de interfaz a consola (server del pro
 VNCserver -localhost #reinicia el server
 sudo ufw default deny incoming / sudo ufw default allow outgoing #configura politicas de firewall
 docker pull nextcloud #crear instancia en NC
+docker build #imagen de docker
+docker images #lista de imagenes
+docker run #correr imagen
+docker ps #ver cuales imagenes estan corriendo y no
+docker stop #detener imagen
+docker rm #remover una instancia
+docker rmi #remover imagen
+cat /etc/passwd #ver pswd encriptadas
+
 
 
